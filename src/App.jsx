@@ -1,8 +1,10 @@
+import BookList from "./BookList";
+
 function App() {
   return (
-    <>
-      <h1 className="bg-slate-500">Hola</h1>
-    </>
+    <div className="bg-slate-950 h-screen overflow-auto">
+      <BookList />
+    </div>
   )
 }
 
